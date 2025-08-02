@@ -3,10 +3,10 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "20342933"))
+API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7960171243:AAGRWhwwbY0y71bZbJv8NQv3gWi69rnO16g")
+ADMIN = int(os.environ.get("ADMIN", "6803963354"))
 
 
 # Premium 4GB Renaming Client Config
@@ -14,8 +14,8 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "0")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002519121603"))
 
 
 # Mongo DB Database Config
